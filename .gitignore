@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Data (Không up dataset lên git)
+data/raw/*
+data/processed/*
+
+# Results & Logs
+results/*
+!results/.gitkeep
+logs/
+*.log
+
+# Environment
+.env
+.venv
+env/
+venv/
+.idea/
+.vscode/
+*.ipynb_checkpoints
